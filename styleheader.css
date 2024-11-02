@@ -1,0 +1,64 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke; 
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: black;
+    justify-content :first baseline;   
+    align-items: center;
+    height: 85px;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo img{
+    height: 70px;
+    align-items: center;
+
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: rgb(41, 119, 62);
+}
+header .btn button{
+    font-weight: 700;
+    color: rgb(15, 0, 0);
+    padding: 9px 25px;
+    background:#ede90d;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}
+header .btn button:hover{
+    background-color: rgb(41, 119, 62);
+    color: white;
+    transform: scale(1.1);
+    
+}
+
+
+
+@media (max-width: 700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    };
+}
