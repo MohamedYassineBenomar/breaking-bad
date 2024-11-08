@@ -44,12 +44,17 @@ header .btn button{
     cursor: pointer;
     transition: all 0.3s ease 0s;
     
+    
 }
 header .btn button:hover{
     background-color: rgb(41, 119, 62);
     color: white;
     transform: scale(1.1);
     
+    
+}
+:dir{
+    align-items: end;
 }
 
 
