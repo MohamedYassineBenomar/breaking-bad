@@ -1,7 +1,22 @@
 body{
     font-family: sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Aligns vertically with space around the items */
+    height: 100vh; /* Takes the full height of the viewport */
 }
+
+header, footer {
+    flex: 1; /* Distributes space equally among children */
+}
+
+main {
+
+    flex: 10;
+
+}
+
 
 a{
     text-decoration: none;
@@ -59,10 +74,6 @@ header .btn button:hover{
     transform: scale(1.1);
 }
 
-:dir{
-    align-items: end;
-}
-
 @media (max-width: 700px){
     header{
         flex-direction: column;
@@ -70,6 +81,7 @@ header .btn button:hover{
     nav{
         padding: 10px 0px;
     };
+    
 }
 
 
@@ -106,4 +118,12 @@ header {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+}
+
+footer {
+
+    background-color: #ede90d;
+    width: 100%;
+    height: 100%;
+
 }
