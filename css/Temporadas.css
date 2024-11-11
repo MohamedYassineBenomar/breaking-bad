@@ -7,8 +7,6 @@ body{
     flex-direction: column;
     width: 100%;
     height: 100%; /* Takes the full height of the viewport */
-    background-color: #f7df35;
-
 }
 #main-center-content-img {
     width: 100%;
@@ -70,7 +68,7 @@ header .btn button{
     font-weight: 700;
     color: rgb(15, 0, 0);
     padding: 9px 25px;
-    background:#f7df35;
+    background:#ede90d;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -82,6 +80,11 @@ header .btn button:hover{
     background-color: rgb(41, 119, 62);
     color: white;
     transform: scale(1.1);
+}
+
+header .btn button:click{
+    background-color: rgb(41, 119, 62);
+
 }
 
 @media (max-width: 700px){
@@ -125,7 +128,7 @@ header {
 }
 
 .btn button {
-    background-color: #f7df35;
+    background-color: yellow;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -139,16 +142,10 @@ footer {
 
 }
 
-#home-link {
-    color: rgb(41, 119, 62);
-}
+
 
 #main-center-content-container {
 
 
-}
-#main-header{
-    font-family: sans-serif;
-    color: rgb(41, 119, 62);
 
 }

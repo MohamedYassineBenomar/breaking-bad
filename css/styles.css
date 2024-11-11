@@ -82,6 +82,11 @@ header .btn button:hover{
     transform: scale(1.1);
 }
 
+header .btn button:click{
+    background-color: rgb(41, 119, 62);
+
+}
+
 @media (max-width: 700px){
     header{
         flex-direction: column;
@@ -136,6 +141,8 @@ footer {
     height: 100%;
 
 }
+
+
 
 #main-center-content-container {
 
