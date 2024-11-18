@@ -156,18 +156,19 @@ footer {
 }
 #main-header{
     color: rgb(41, 119, 62);
-    margin: auto;
     margin-left: 20px;
     margin-right: 40px;
     font-size: 36px;
     font-family: 'Oswald', sans-serif;
+    flex: 1;
 }
-#h2{
+#main-content-header{
     margin: auto;
     margin-left: 20px;
     margin-right: 40px;
     font-size: 22px;
     font-family: 'Oswald', sans-serif;
+    flex: 1;
 
 }
 #main-center-content-img {
@@ -179,6 +180,7 @@ footer {
     margin-right: 40px;
     margin-left: 20px;
     z-index: 2;
+    flex: 5;
    }
 #main-center-content-txt{
     
@@ -188,5 +190,12 @@ footer {
     font-size: 16px;
     font-family: 'Oswald', sans-serif;
    
+}
+
+#main-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
