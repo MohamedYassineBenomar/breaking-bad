@@ -185,6 +185,8 @@ footer {
     margin-left: 20px;
     z-index: 2;
     flex: 5;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
    }
 #main-center-content-txt{
     
