@@ -150,7 +150,8 @@ footer {
     flex-direction: vertical; /* Establece que los elementos se organicen de arriba hacia abajo */
     align-items: flex-start; /* Alinea los elementos al inicio (izquierda) */
     margin: 20px;
-    background-color: rgb(228, 225, 225);
+    background-color: rgb(138, 149, 151);
+    border-radius: 20px;
       
 }
 #main-header{
