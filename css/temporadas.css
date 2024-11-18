@@ -148,7 +148,60 @@ footer {
  }
 
 #main-center-content-container {
+    display: flex;
+    justify-content: flex-start;  /* Alinea los elementos al principio */
+    flex-direction: vertical; /* Establece que los elementos se organicen de arriba hacia abajo */
+    align-items: flex-start; /* Alinea los elementos al inicio (izquierda) */
+    margin: 20px;
+    background-color: rgb(138, 149, 151);
+    border-radius: 20px;
 
+}
+#main-header{
+    margin: 0;
+    color: rgb(41, 119, 62);
+    margin-left: 20px;
+    margin-right: 40px;
+    font-size: 36px;
+    font-family: 'Oswald', sans-serif;
+    flex: 1;
+    line-height: 0.1;
+}
+#main-content-header{
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-right: 40px;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    flex: 1;
+    line-height: 0.1;
 
+}
+#main-center-content-txt{    
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-direction: column; /* Establece que los elementos se organicen de arriba hacia abajo */
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+   
+}
 
+#main-container {
+    display: flex;
+    flex-direction: column;
+}
+.video-temp1 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+    width: 300px; /* Ancho fijo */
+    height: 169px; /* Altura proporcional a 16:9 */
+}
+.video-temp1{
+    position: relative;
+    width: 300px; /* Tamaño fijo del contenedor */
+    margin: 10px auto; /* Centrado automático */
+    overflow: hidden;
+    padding-top: 56.25%; /* Relación de aspecto 16:9 */
 }
