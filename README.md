@@ -2,7 +2,7 @@
 # breaking-bad
 
 
-## breaking-bad web page HTML structura :
+## breaking-bad web page HTML structura : 
 
 <!DOCTYPE html>
 <html>      
