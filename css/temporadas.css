@@ -167,6 +167,9 @@ footer {
     flex: 1;
     line-height: 0.1;
 }
+#main-content-text{
+    flex: 1;
+}
 #main-content-header{
     color: rgb(255, 255, 255);
     margin-left: 20px;
@@ -190,16 +193,18 @@ footer {
     display: flex;
     flex-direction: column;
 }
-.video-temp1 iframe {
-    position: absolute;
+.main-content-video iframe {
+    
     top: 0;
     left: 0;
     border: 0;
-    width: 300px; /* Ancho fijo */
-    height: 169px; /* Altura proporcional a 16:9 */
+    width: 300px; /* Ancho fijo 300px*/
+    height: 169px; /* Altura proporcional a 16:9  169px*/
 }
-.video-temp1{
-    position: relative;
+.main-content-video{
+    flex: 1;
+ 
+    /*position: relative;*/
     width: 300px; /* Tamaño fijo del contenedor */
     margin: 10px auto; /* Centrado automático */
     overflow: hidden;
