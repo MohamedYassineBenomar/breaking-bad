@@ -150,8 +150,8 @@ footer {
 #main-center-content-container {
     display: flex;
     justify-content: flex-start;  /* Alinea los elementos al principio */
-    flex-direction: vertical; /* Establece que los elementos se organicen de arriba hacia abajo */
-    align-items: flex-start; /* Alinea los elementos al inicio (izquierda) */
+    flex-direction: column; /* Establece que los elementos se organicen de arriba hacia abajo */
+   /*  align-items: flex-start; /* Alinea los elementos al inicio (izquierda) */
     margin: 20px;
     background-color: rgb(138, 149, 151);
     border-radius: 20px;
@@ -167,7 +167,7 @@ footer {
     flex: 1;
     line-height: 0.1;
 }
-#main-content-text{
+.main-content-text{
     flex: 1;
 }
 #main-content-header{
@@ -209,4 +209,8 @@ footer {
     margin: 10px auto; /* Centrado automático */
     overflow: hidden;
     padding-top: 56.25%; /* Relación de aspecto 16:9 */
+}
+.main-center-content {
+    width: 100%;
+    height: 100%;
 }
