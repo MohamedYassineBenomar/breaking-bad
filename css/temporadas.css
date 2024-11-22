@@ -147,7 +147,7 @@ footer {
     color: rgb(41, 119, 62);
  }
 
-#main-center-content-container {
+.main-center-content-container {
     display: flex;
     justify-content: flex-start;  /* Alinea los elementos al principio */
     flex-direction: row; /* Establece que los elementos se organicen de arriba hacia abajo */
@@ -167,11 +167,31 @@ footer {
     flex: 1;
     line-height: 0.1;
 }
+.num-temporada {
+
+    font-size: 76px;
+    text-align: center;
+}
+
+.main-center-content-txt{    
+   
+    margin-right: 20px;
+    flex-direction: column; /* Establece que los elementos se organicen de arriba hacia abajo */
+    font-size: 16px;
+    flex:1.64;
+    font-family: 'Oswald', sans-serif;
+   
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+}
 
 .main-content-header{
     color: rgb(255, 255, 255);
     margin-left: 20px;
-    margin-right: 40px;
+    margin-right: 20px;
     font-size: 22px;
     font-family: 'Oswald', sans-serif;
     flex: 0.31;
@@ -187,20 +207,6 @@ footer {
 
 
 }
-#main-center-content-txt{    
-    margin-left: 20px;
-    margin-right: 20px;
-    flex-direction: column; /* Establece que los elementos se organicen de arriba hacia abajo */
-    font-size: 16px;
-    flex:1.64;
-    font-family: 'Oswald', sans-serif;
-   
-}
-
-#main-container {
-    display: flex;
-    flex-direction: column;
-}
 .main-content-text{
     flex: 2;
 }
@@ -209,13 +215,9 @@ footer {
     flex: 1;
 }
 iframe {
-    position: relative;
-    left: 20%;
-    top: 10%;
 
-    border: 0;
-    width: 300px; /* Ancho fijo 300px*/
-    height: 169px; /* Altura proporcional a 16:9  169px*/
+    width: 100%; 
+    height: 100%; 
 }
 .main-content-video{
     flex: 1;
