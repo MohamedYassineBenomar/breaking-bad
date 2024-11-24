@@ -13,6 +13,7 @@ body{
     width: 100%;
     height: 100%;
     z-index: -1;
+    background-color: grey;
   }
 header, footer {
     flex: 1; /* Distributes space equally among children */
@@ -177,7 +178,7 @@ footer {
    /*  align-items: flex-start; /* Alinea los elementos al inicio (izquierda) */
     margin: 20px;
     background-color: rgb(138, 149, 151);
-    border-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
     padding: 10px;
     width: 50%;
     margin: auto;
@@ -191,7 +192,7 @@ footer {
    flex-direction: row; /* Establece que los elementos se organicen de arriba hacia abajo */
     margin: 20px;
     background-color: rgb(138, 149, 151);
-    border-radius: 20px;
+    border-radius: 0px 0px 20px 20px;
     padding: 10px;
     width: 50%;
     margin: auto;
@@ -204,8 +205,44 @@ input {
 .inputs {
     border-radius: 10px;
     border-width: 0px;
+    color: rgb(41, 119, 62);
 }
 textarea {
 
     width: 100%;
+}
+
+.enviar-button {
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    
+}
+
+.inputs::placeholder { /* Standard */
+    color: rgb(41, 119, 62);
+}
+
+#main-center-content-btns {
+    display: flex;
+    justify-content: space-between; /* Align content within the container */
+    align-items: center;
+}
+
+#social-btns-container {
+    display: flex;
+    justify-content: flex-end; /* Align icons to the right */
+    gap: 15px; /* Space between icons */
+    margin-right: 15px;
+}
+
+.social-btn {
+    text-decoration: none;
+    font-size: 24px; /* Adjust icon size */
+    color: rgb(255, 255, 255); /* Default icon color */
+    transition: color 0.3s ease;
+}
+
+.social-btn:hover {
+    color: rgb(41, 119, 62); /* Change color on hover */
 }
