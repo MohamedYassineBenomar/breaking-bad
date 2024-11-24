@@ -208,7 +208,7 @@ input {
     color: rgb(41, 119, 62);
 }
 textarea {
-
+    resize: vertical; /* Allow resizing only vertically */
     width: 100%;
 }
 
@@ -218,7 +218,11 @@ textarea {
     width: 100px;
     
 }
-
+.enviar-button:hover {
+    color: black; /* Change color on hover */
+    cursor: pointer;
+    background-color: #f7df35;
+}
 .inputs::placeholder { /* Standard */
     color: rgb(41, 119, 62);
 }
@@ -241,6 +245,7 @@ textarea {
     font-size: 24px; /* Adjust icon size */
     color: rgb(255, 255, 255); /* Default icon color */
     transition: color 0.3s ease;
+
 }
 
 .social-btn:hover {
