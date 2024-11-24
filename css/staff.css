@@ -7,7 +7,7 @@ body{
     flex-direction: column;
     width: 100%;
     height: 100%; /* Takes the full height of the viewport */
-    background-color: #ede90d;
+    background-color: #f7df35;
 }
 #main-center-content-img {
     width: 100%;
@@ -69,7 +69,7 @@ header .btn button{
     font-weight: 700;
     color: rgb(15, 0, 0);
     padding: 9px 25px;
-    background:#ede90d;
+    background:#f7df35;
     border: none;
     border-radius: 50px;
     cursor: pointer;
