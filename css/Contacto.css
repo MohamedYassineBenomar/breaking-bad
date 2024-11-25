@@ -251,3 +251,55 @@ textarea {
 .social-btn:hover {
     color: rgb(41, 119, 62); /* Change color on hover */
 }
+#main-center-content-extra {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(138, 149, 151);
+    border-radius: 20px;
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    gap: 10px;
+    color: whitesmoke;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: rgb(41, 119, 62);
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+select.inputs {
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(41, 119, 62);
+}
+
+.labels {
+    display: flex;
+    flex-direction: row;
+}
+
+label input {
+    flex: 1;
+    align-items: center; /* Centers elements vertically */
+    justify-content: center; /* (Optional) Centers elements horizontally */
+ 
+}
+label p {
+    flex: 1;
+
+}
