@@ -196,10 +196,12 @@ footer {
     padding: 10px;
     width: 50%;
     margin: auto;
+    margin-bottom: 20px;
 }
 input {
     width: 100%;
     height: 30px;
+  
 
 }     
 .inputs {
@@ -291,6 +293,8 @@ select.inputs {
 .labels {
     display: flex;
     flex-direction: row;
+    align-items: center; 
+
 }
 
 label input {
