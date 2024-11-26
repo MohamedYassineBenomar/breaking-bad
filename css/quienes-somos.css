@@ -351,3 +351,12 @@ label p {
     object-fit: cover; /* Ensures the image covers the entire area without distortion */
     display: block; /* Removes any extra spacing around the image */
 }
+ul {
+    padding-left: 0; /* Removes default padding from the left */
+    margin: 0; /* Removes default margin */
+}
+
+li {
+    list-style-position: inside; /* Moves the bullet closer to the text */
+    padding-left: 0; /* Ensures no extra space is added */
+}
