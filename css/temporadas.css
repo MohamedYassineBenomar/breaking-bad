@@ -188,6 +188,11 @@ footer {
     border: none;
     cursor: pointer;
 }
+
+
+
+
+
 #main-container {
     display: flex;
     flex-direction: column;
@@ -205,11 +210,8 @@ footer {
 }
 .main-content-header h2{
     color: rgb(255, 255, 255);
-
     font-size: 30px;
     font-family: 'Oswald', sans-serif;
-   
-
 
 }
 .main-content-text{
@@ -225,9 +227,7 @@ iframe {
     height: 100%; 
 }
 .main-content-video{
-    flex: 1;
- 
-    /*position: relative;*/
+    flex: 1;  /*position: relative;*/
     width: 300px; /* Tamaño fijo del contenedor */
     margin: 10px auto; /* Centrado automático */
     overflow: hidden;
