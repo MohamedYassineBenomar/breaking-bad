@@ -156,8 +156,84 @@ footer {
     color: rgb(41, 119, 62);
 }
 
-#main-center-content-container {
 
+#main-container {
+    display: flex;
+    flex-direction: column;
+}
 
+.main-content-header{
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    flex: 0.31;
+    line-height: 0.1;
 
+}
+.main-content-header h2{
+    color: rgb(255, 255, 255);
+    font-size: 76px;
+    text-align:left;
+    font-family: 'Oswald', sans-serif;
+
+}
+.main-content-text{
+    flex: 2;
+}
+.main-center-content-video {
+
+    flex: 1;
+}
+iframe {
+
+    width: 100%; 
+    height: 100%; 
+}
+.main-content-video{
+    flex: 1;  /*position: relative;*/
+    width: 300px; /* Tamaño fijo del contenedor */
+    margin: 10px auto; /* Centrado automático */
+    overflow: hidden;
+    padding-top: 56.25%; /* Relación de aspecto 16:9 */
+}
+.main-center-content {
+    width: 100%;
+    height: 100%;
+}
+.main-center-content-container {
+    display: flex;
+    justify-content: flex-start;  /* Alinea los elementos al principio */
+    flex-direction: row; /* Establece que los elementos se organicen de arriba hacia abajo */
+   /*  align-items: flex-start; /* Alinea los elementos al inicio (izquierda) */
+    margin: 20px;
+    background-color: rgb(138, 149, 151);
+    border-radius: 20px;
+    padding: 10px;
+}
+#main-header{
+    margin: 0;
+    color: rgb(41, 119, 62);
+    margin-left: 20px;
+    margin-right: 40px;
+    font-size: 36px;
+    font-family: 'Oswald', sans-serif;
+    flex: 1;
+    line-height: 0.1;
+}
+.Saul {
+
+    font-size: 76px;
+    text-align: left;
+}
+
+.main-center-content-txt{    
+   
+    margin-right: 20px;
+    flex-direction: column; /* Establece que los elementos se organicen de arriba hacia abajo */
+    font-size: 16px;
+    flex:1.64;
+    font-family: 'Oswald', sans-serif;
+   
 }
