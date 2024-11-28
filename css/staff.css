@@ -59,7 +59,8 @@ img {
 
 .gallery {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+
 
 }
 .gallery-part {
@@ -187,16 +188,14 @@ footer {
     border-radius: 20px;
     padding: 1%;
     display: flex;
-
+    flex-wrap: wrap;
+    
 }
 .main-center-content-img{
     display: flex;
     width: 100%;
     height: auto;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 20px; 
-    margin-bottom: 20px; 
+
     border-radius: 20px;
 
 }
@@ -205,13 +204,17 @@ footer {
     width: 30%; /* Ajusta el ancho de cada imagen según tu diseño */
     margin: 1.5%; /* Espacio entre las imágenes */
     float: left; /* Para que las imágenes estén en fila */
+    margin-bottom: 40px;
+   
+    
 }
 
 .container .main-center-content-img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: 20px;
+    
 }
 
 .overlay {
