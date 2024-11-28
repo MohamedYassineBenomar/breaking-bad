@@ -52,6 +52,15 @@ header{
 
 }
 
+.gallery {
+    display: flex;
+    flex-direction: column;
+
+}
+.gallery-part {
+    
+
+}
 nav a{
     font-weight: 600;
     padding-right: 10px;
