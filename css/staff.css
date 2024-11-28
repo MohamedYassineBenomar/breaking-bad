@@ -143,8 +143,7 @@ footer {
    color: rgb(41, 119, 62);
 }
 
-#main-header{
-    
+#main-header{    
     margin: 0;
     color: rgb(41, 119, 62);
     margin-left: 20px;
@@ -161,41 +160,32 @@ footer {
     font-size: 22px;
     font-family: 'Oswald', sans-serif;
     flex: 1;
-    line-height: 0.1;
-
-
-
-    
+    line-height: 0.1;    
 }
 
 #main-center-content{
     background-color:  rgb(138, 149, 151);
     margin-left: 20px; 
-    margin-right: 20px;
-    display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));  
+    margin-right: 20px; 
     width: 90%;
     max-width: 1100px;
     margin: 40px auto;
-    gap: 40px;
     border-radius: 20px;
     padding: 0%;
+    display: flex;
 
 }
 .main-center-content-img{
-    width: 320px;
-    height: 320px;
+    display: flex;
+    width: 100%;
+    height: auto;
     margin-right: 20px;
     margin-left: 20px;
     margin-top: 20px; 
     margin-bottom: 20px; 
     border-radius: 20px;
 
-
 }
-  
-
-
 .container {
     position: relative;
     width: 30%; /* Ajusta el ancho de cada imagen según tu diseño */
@@ -212,21 +202,22 @@ footer {
 
 .overlay {
     position: absolute;
-    bottom: 100%;
+    top: 0;
+    bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
-    overflow: hidden;
-    width: 350px;
-    height: auto;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
     transition: 0.5s ease;
     border-radius: 20px;
     text-align: justify; /* Justificar texto */
+    background-color: rgb(15, 0, 0);
+
 }
 
 .container:hover .overlay {
-    bottom: 0;
-    height: 100%;
+    opacity: 1;
 }
 
 .text {
