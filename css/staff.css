@@ -167,6 +167,7 @@ footer {
     font-family: 'Oswald', sans-serif;
     flex: 1;
     line-height: 0.1;
+    margin-bottom: 40px;
 }
 #main-content-header{
     color: rgb(255, 255, 255);
@@ -189,6 +190,7 @@ footer {
     padding: 1%;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 20px;
     
 }
 .main-center-content-img{

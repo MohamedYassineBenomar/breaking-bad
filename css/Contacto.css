@@ -161,6 +161,7 @@ footer {
     font-family: 'Oswald', sans-serif;
     flex: 1;
     line-height: 0.1;
+    
 }
 #main-center-content {
     flex: 1;
@@ -307,5 +308,10 @@ label input {
 }
 label p {
     flex: 1;
+
+}
+h2{
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
 
 }
