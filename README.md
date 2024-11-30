@@ -12,7 +12,3 @@
         <footer></footer>
     </body>
 </html>
-
-
-
-
