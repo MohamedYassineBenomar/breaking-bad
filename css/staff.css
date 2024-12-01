@@ -52,10 +52,6 @@ header{
 
 }
 
-img {
-    height: 200px;
-    width: 150px;
-}
 
 .gallery {
     display: flex;
