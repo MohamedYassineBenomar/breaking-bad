@@ -180,13 +180,11 @@ footer {
     width: 45%;
    
     text-align: center;
-    
+    gap: 10px;
 }
 #main-center-content-btns {
-  
-   display: flex;
-  
-   flex-direction: row; /* Establece que los elementos se organicen de arriba hacia abajo */
+    display: flex;
+    flex-direction: row; /* Establece que los elementos se organicen de arriba hacia abajo */
     margin: 20px;
     background-color: rgb(138, 149, 151);
     border-radius: 0px 0px 20px 20px;
@@ -389,3 +387,15 @@ img:hover {
 
 
 }
+
+h2 {
+
+    color: #ffffff;
+}
+
+hr{
+    border: 0;
+    height: 5px;
+    background: linear-gradient(to right, #FD3E0D, #F7DF35); /* Negro a blanco */
+    border-radius: 10px; /* Bordes redondeados */
+  }

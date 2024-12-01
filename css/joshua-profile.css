@@ -172,8 +172,8 @@ footer {
     display: flex;
     justify-content: flex-start;  /* Alinea los elementos al principio */
     flex-direction: column; /* Establece que los elementos se organicen de arriba hacia abajo */
-   /*  align-items: flex-start; /* Alinea los elementos al inicio (izquierda) */
-   margin: 20px auto;
+    /*  align-items: flex-start; /* Alinea los elementos al inicio (izquierda) */
+    margin: 20px auto;
     background-color: rgb(138, 149, 151);
     border-radius: 20px;
     padding: 10px;
