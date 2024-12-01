@@ -197,7 +197,6 @@ footer {
     display: flex;
     width: 100%;
     height: auto;
-
     border-radius: 20px;
 
 }
@@ -253,5 +252,5 @@ footer {
     text-align: justify; /* Justificar texto */ 
     max-width: 90%; /* Limitar ancho del texto */
     font-family: 'Oswald', sans-serif;
-    
+    text-align: center;
 }
