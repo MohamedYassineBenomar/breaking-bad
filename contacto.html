@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>      
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Breaking Bad</title>
+        <link rel="stylesheet" href="css/Contacto.css">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    </head>
+    <body>
+        
+
+        <header>
+            <div id="left-nav">
+            <a href="index.html"  class="logo">
+                <img src="images/logo.jpg" alt="logo breaking bad">
+            </a>
+            </div>
+            <div id="center-nav">
+                <nav class="header-list-options">
+                    <a href="home.html" class="nav-link">Home</a>
+                    <a href="temporadas.html" class="nav-link">Temporadas</a>
+                    <a href="staff.html" class="nav-link">Staff</a>
+                    <a href="contenido-extra.html" class="nav-link">Contenido extra</a>
+                    <a href="contacto.html" id="contacto" class="nav-link">Contacto</a>  
+                </nav>
+            </div>
+            <div id="right-nav" class="header-list-options">
+                <a href="quienes-somos.html" class="btn"><button>¿Quiénes somos?</button></a>
+            </div>
+          
+        </header>
+
+
+        <main>      
+            <div id="main-container">
+                <div id="main-header">
+                    <h1>Contacto</h1>
+                </div>
+                
+                <div id="main-center-content">
+                     <form>
+                        <div id="main-center-content-container">
+                            <div id="main-center-content-title">
+                                <h2>Contáctanos</h2>
+                            </div>
+                            <div id="main-center-content-name-input">
+                                <input class="inputs" type="text" placeholder="  Ingresa tu nombre" />
+                            </div>
+                            <div id="main-center-content-email-input">
+                                <input class="inputs" type="email" placeholder="  Ingresa una dirección de correo válida" />
+                            </div>
+                            <div id="main-center-content-extra">
+                                <!-- Radio Buttons -->
+                                <div class="input-group">
+                                    <h3>Selecciona tu personaje favorito:</h3>
+                                    <label class="labels">
+                                        <p>Walter White</p>
+                                        <input type="radio" name="character" value="Walter White">
+                                    </label>
+                                    <label class="labels">
+                                        <p>Jesse Pinkman</p>
+                                        <input type="radio" name="character" value="Jesse Pinkman">
+                                    </label>
+                                    <label class="labels">
+                                        <p>Saul Goodman</p>
+                                        <input type="radio" name="character" value="Saul Goodman">
+                                    </label>
+                                </div>
+                                <!-- Checkboxes -->
+                                <div class="input-group">
+                                    <h3>¿Qué te interesa de Breaking Bad?</h3>
+                                    <label class="labels">
+                                        <p>Historia</p>
+                                        <input type="checkbox" name="interest" value="Historia">
+                                    </label>
+                                    <label class="labels">
+                                        <p>Personajes</p>
+                                        <input type="checkbox" name="interest" value="Personajes">
+                                    </label>
+                                    <label class="labels">
+                                        <p>Cinematografía</p>
+                                        <input type="checkbox" name="interest" value="Cinematografía">
+                                    </label>
+                                </div>
+                                <!-- Dropdown List -->
+                                <div class="input-group">
+                                    <h3>Selecciona tu temporada favorita:</h3>
+                                    <select class="inputs">
+                                        <option value="" disabled selected>Selecciona una opción</option>
+                                        <option value="Temporada 1">Temporada 1</option>
+                                        <option value="Temporada 2">Temporada 2</option>
+                                        <option value="Temporada 3">Temporada 3</option>
+                                        <option value="Temporada 4">Temporada 4</option>
+                                        <option value="Temporada 5">Temporada 5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <textarea class="inputs" rows="10" cols="50" placeholder=" Danos tu opinión..."></textarea>
+                        </div>
+                        <div id="main-center-content-btns">
+                    
+                            <button class="btn enviar-button" type="submit"><strong>Enviar</strong></button>
+                            <div id="social-btns-container">
+                                <!-- Social Media Icons -->
+                                <a href="https://www.instagram.com/breakingbad/profilecard/?igsh=OHZuYWIwZThycjAy" target="_blank" class="social-btn"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.youtube.com/results?search_query=breaking+bad&sp=EgIQAg%253D%253D" target="_blank" class="social-btn"><i class="fab fa-youtube"></i></a>
+                                <a href="https://es-la.facebook.com/BreakingBad/events/" target="_blank" class="social-btn"><i class="fab fa-facebook"></i></a>
+                                <a href="https://www.pinterest.com/docreid77/breaking-bad/" target="_blank" class="social-btn"><i class="fab fa-pinterest"></i></a>
+                            </div>
+                        </div>
+                    </form>
+                   
+
+                </div>
+            </div>      
+        </main>
+
+        <footer>
+            <div id="footer-content">
+                <strong>Ⓒ HECHO POR MOHAMED YASSINE BEN OMAR Y JOSHUA MAFLA</strong>
+
+            </div>
+        </footer>
+    </body>
+</html>

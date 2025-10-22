@@ -1,0 +1,267 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%; /* Takes the full height of the viewport */
+    background-color: #f7df35;
+}
+
+header, footer {
+    flex: 1; /* Distributes space equally among children */
+}
+
+main {
+
+    flex: 10;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: whitesmoke; 
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: black;
+    justify-content :first baseline;   
+    align-items: center;
+    height: 85px;
+    padding: 10px;
+}
+
+
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img{
+    height: 70px;
+    align-items: center;
+
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.gallery-part {
+    
+
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: rgb(41, 119, 62);
+}
+
+header .btn button{
+    font-weight: 700;
+    color: rgb(15, 0, 0);
+    padding: 9px 25px;
+    background:#f7df35;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+header .btn button:hover{
+    background-color: rgb(41, 119, 62);
+    color: white;
+    transform: scale(1.1);
+}
+
+header .btn button:click{
+    background-color: rgb(41, 119, 62);
+
+}
+
+@media (max-width: 700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    };
+    
+}
+
+
+header {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#left-nav {
+    flex: 1;
+    text-align: left;
+}
+
+#center-nav {
+    flex: 2;
+    text-align: center;
+}
+
+#right-nav {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.btn button {
+    background-color: yellow;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+
+    background-color: #ede90d;
+    width: 100%;
+    height: 100%;
+
+}
+
+#staff {
+   color: rgb(41, 119, 62);
+}
+
+#main-header{    
+    margin: 0;
+    color: rgb(41, 119, 62);
+    margin-left: 20px;
+    margin-right: 40px;
+    font-size: 36px;
+    font-family: 'Oswald', sans-serif;
+    flex: 1;
+    line-height: 0.1;
+    margin-bottom: 40px;
+}
+#main-content-header{
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-right: 40px;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    flex: 1;
+    line-height: 0.1;    
+}
+
+#main-center-content{
+    background-color:  rgb(138, 149, 151);
+    margin-left: 20px; 
+    margin-right: 20px; 
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    border-radius: 20px;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    
+}
+.main-center-content-img{
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+
+}
+.container {
+    position: relative;
+    width: 30%; /* Ajusta el ancho de cada imagen según tu diseño */
+    margin: 1.5%; /* Espacio entre las imágenes */
+    float: left; /* Para que las imágenes estén en fila */
+    margin-bottom: 40px;
+   
+    
+}
+
+.container .main-center-content-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    border-radius: 20px;
+    text-align: justify; /* Justificar texto */
+    background-color: rgb(15, 0, 0);
+
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    padding: 10px; 
+    text-align: justify; /* Justificar texto */ 
+    max-width: 90%; /* Limitar ancho del texto */
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+footer {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+#footer-content {
+    margin: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
