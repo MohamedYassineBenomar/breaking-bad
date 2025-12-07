@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Endevina la paraula - Joc</title>
+  <link rel="stylesheet" href="../css/styles.css"/>
+</head>
+<body>
+  <header class="row" style="justify-content:space-between;">
+    <div class="row">
+      <button id="btnBack" type="button">⬅ Tornar</button>
+      <button id="btnInstr" type="button">❓ Instruccions</button>
+    </div>
+    <div class="row small">
+      <div>Idioma navegador: <span id="browserLang" class="badge"></span></div>
+    </div>
+  </header>
+
+  <main class="card">
+    <div class="row">
+      <div class="col">
+        <div class="label">Paraula secreta</div>
+        <div class="row">
+          <input id="secret" type="password" placeholder="Introdueix una paraula" />
+          <button id="toggleEye" type="button">👁</button>
+          <button id="btnStart" type="button">Iniciar joc</button>
+        </div>
+
+        <div id="wordSlots" class="mono"></div>
+        <div style="height:8px"></div>
+        <div id="letters" class="letters"></div>
+
+        <hr/>
+
+        <div class="row">
+          <div class="col">
+            <div class="label">Puntuació actual: <span id="score" class="badge">0</span></div>
+            <div>Errors: <span id="errors" class="badge">0</span> / 9</div>
+            <div id="result" class="mono"></div>
+          </div>
+          <div class="col" style="max-width:180px">
+            <img id="balloon" alt="globus" />
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="label">Informació i marcatge</div>
+        <div class="kv"><div class="label">Jugador</div><div id="playerName" class="mono"></div></div>
+        <div class="kv"><div class="label">Totals jugats</div><div id="t_total" class="mono">0</div></div>
+        <div class="kv"><div class="label">Guanyats</div><div id="t_won" class="mono">0 (0%)</div></div>
+        <div class="kv"><div class="label">Màxima puntuació</div><div id="t_best" class="mono">-</div></div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <span class="badge">Pistes: +1/+2/+3 en encerts seguits. Multiplica per repeticions. Error: -1 (no pot ser negatiu).</span>
+  </footer>
+
+  <script src="../js/utils.js"></script>
+  <script src="../js/game.js"></script>
+</body>
+</html>

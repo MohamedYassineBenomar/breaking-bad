@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Endevina la paraula - Inici</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+  <header>
+    <h1>Endevina la paraula</h1>
+    <p class="info">Pàgina d'inici (mostra informació del navegador, idioma i URL). Guarda el nom a cookie, i configura sessionStorage/localStorage.</p>
+  </header>
+
+  <main class="card">
+    <div class="row">
+      <div class="col">
+        <div class="label">Nom del jugador</div>
+        <input id="playerName" type="text" placeholder="Escriu el teu nom" />
+        <div style="height:8px"></div>
+        <div class="row">
+          <button id="btnStart" type="button">Començar partida</button>
+          <button id="btnClear" type="button">Neteja puntuació</button>
+        </div>
+        <hr/>
+        <div class="label">Puntuació màxima</div>
+        <div id="highScore" class="mono small">-</div>
+      </div>
+      <div class="col">
+        <div class="label">Informació d'entorn</div>
+        <div id="envInfo"></div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <span class="badge">HTML + CSS + JS (sense llibreries)</span>
+  </footer>
+
+  <script src="js/utils.js"></script>
+  <script src="js/start.js"></script>
+</body>
+</html>
